@@ -16,6 +16,6 @@ mkdir -p ~/.build
 yay --builddir ~/.build --save
 
 case $yn in
-	y )	yay -S --noconfirm --needed - < pkglist_aur;;
+	y )	yay -S --needed - < pkglist_aur;;
 	* ) echo continue;;
 esac
