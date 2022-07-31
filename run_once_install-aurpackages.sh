@@ -3,7 +3,7 @@
 read -p "Do you want to install AUR packages (y/n) " yn
 
 pkglist_aur="
-veusz
+veusz-git
 zoom
 mendeleydesktop
 ttf-ms-fonts
