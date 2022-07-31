@@ -5,7 +5,7 @@ read -p "Do you want to install AUR packages (y/n) " yn
 pkglist_aur="
 veusz-git
 zoom
-mendeleydesktop
+mendeley-reference-manager 
 ttf-ms-fonts
 "
 
