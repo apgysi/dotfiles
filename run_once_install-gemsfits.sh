@@ -8,9 +8,8 @@ cd ..
 cd standalone
 git clone https://bitbucket.org/gems4/gems3k.git .
 git checkout dev-gemsfits
-cd 
 
-cd Downloads
+cd ~/Downloads
 git clone https://github.com/Softmotions/ejdb.git
 cd ejdb
 git checkout v1.2.12
@@ -19,8 +18,8 @@ cd build
 cmake -DCMAKE_BUILD_TYPE=Release ../
 make
 sudo make install
-cd
-cd Downloads
+
+cd ~/Downloads
 wget https://github.com/jbeder/yaml-cpp/archive/refs/tags/yaml-cpp-0.6.3.zip
 
 unzip yaml-cpp-0.6.3.zip
