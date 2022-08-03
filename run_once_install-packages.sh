@@ -11,6 +11,7 @@ texstudio
 texlive-most
 hyphen-en
 hunspell-en_us
+yaml-cpp
 "
 
 echo -e "$pkglist" > pkglist

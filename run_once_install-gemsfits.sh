@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 mkdir gitGEMSFITS 
 cd gitGEMSFITS
@@ -20,13 +20,19 @@ make
 sudo make install
 
 cd ~/Downloads
-wget https://github.com/jbeder/yaml-cpp/archive/refs/tags/yaml-cpp-0.6.3.zip
+wget https://d13lb3tujbc8s0.cloudfront.net/onlineinstallers/qt-unified-linux-x64-4.4.1-online.run
+chmod +x qt-unified-linux-x64-4.4.1-online.run
+./qt-unified-linux-x64-4.4.1-online.run
 
-unzip yaml-cpp-0.6.3.zip
 
-cd yaml-cpp-yaml-cpp-0.6.3
-mkdir build
-cd build
-cmake ..
-make
-sudo make install
+#cd ~/Downloads
+#wget https://github.com/jbeder/yaml-cpp/archive/refs/tags/yaml-cpp-0.6.3.zip
+
+#unzip yaml-cpp-0.6.3.zip
+
+#cd yaml-cpp-yaml-cpp-0.6.3
+#mkdir build
+#cd build
+#cmake ..
+#make
+#sudo make install
