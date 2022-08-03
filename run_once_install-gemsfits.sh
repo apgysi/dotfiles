@@ -19,7 +19,8 @@ cd build
 cmake -DCMAKE_BUILD_TYPE=Release ../
 make
 sudo make install
-
+cd
+cd Downloads
 wget https://github.com/jbeder/yaml-cpp/archive/refs/tags/yaml-cpp-0.6.3.zip
 
 unzip yaml-cpp-0.6.3.zip
