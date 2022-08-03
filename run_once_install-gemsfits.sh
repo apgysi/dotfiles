@@ -24,7 +24,7 @@ wget https://github.com/jbeder/yaml-cpp/archive/refs/tags/yaml-cpp-0.6.3.zip
 
 unzip yaml-cpp-0.6.3.zip
 
-cd yaml-cpp-0.6.3
+cd yaml-cpp-yaml-cpp-0.6.3
 mkdir build
 cd build
 cmake ..
