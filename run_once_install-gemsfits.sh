@@ -21,6 +21,17 @@ make
 sudo make install
 
 cd ~/Downloads
+wget https://github.com/stevengj/nlopt/archive/v2.7.0.tar.gz
+tar -xf nlopt-2.7.0.tar.gz
+cd nlopt-2.7.0
+mkdir build
+cd build
+cmake ..
+make
+sudo make install
+
+
+cd ~/Downloads
 wget https://d13lb3tujbc8s0.cloudfront.net/onlineinstallers/qt-unified-linux-x64-4.4.1-online.run
 chmod +x qt-unified-linux-x64-4.4.1-online.run
 ./qt-unified-linux-x64-4.4.1-online.run

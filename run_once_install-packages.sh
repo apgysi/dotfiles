@@ -12,6 +12,8 @@ texstudio
 texlive-most
 hyphen-en
 hunspell-en_us
+boost
+openmp
 yaml-cpp
 "
 
