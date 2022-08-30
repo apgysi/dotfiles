@@ -1,6 +1,7 @@
 #!/bin/sh
 
 pkglist="
+cmake
 vim
 ranger
 libreoffice-still
