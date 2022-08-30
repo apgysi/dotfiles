@@ -3,7 +3,8 @@
 mkdir gitGEMSFITS 
 cd gitGEMSFITS
 mkdir gemsfits standalone
-gemsfits git clone https://bitbucket.org/gems4/gemsfits.git .
+cd gemsfits 
+git clone https://bitbucket.org/gems4/gemsfits.git .
 cd ..
 cd standalone
 git clone https://bitbucket.org/gems4/gems3k.git .
