@@ -14,7 +14,7 @@ hyphen-en
 hunspell-en_us
 boost
 openmp
-yaml-cpp
+nlopt
 "
 
 echo -e "$pkglist" > pkglist
