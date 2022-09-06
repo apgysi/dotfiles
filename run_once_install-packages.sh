@@ -15,6 +15,7 @@ hunspell-en_us
 boost
 openmp
 nlopt
+nextcloud-client
 "
 
 echo -e "$pkglist" > pkglist
