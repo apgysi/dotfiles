@@ -22,8 +22,8 @@ sudo make install
 
 cd ~/Downloads
 wget https://github.com/jbeder/yaml-cpp/archive/refs/tags/yaml-cpp-0.6.3.tar.gz
-tar -xvf yaml-cpp--0.6.3.tar.gz
-cd yaml-cpp-0.6.3
+tar -xvf yaml-cpp-0.6.3.tar.gz
+cd yaml-cpp-yaml-cpp-0.6.3
 mkdir build
 cd build
 cmake ..
